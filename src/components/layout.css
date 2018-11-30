@@ -50,4 +50,16 @@ a {
   border-radius: 20px;
 }
 
+@media (max-width: 640px) {
+  .heroGroup {
+    padding: 100px 20px;
+  }
+  .hero h1 {
+    font-size: 40px;
+  }
+  .hero p {
+    font-size: 24px;
+  }
+}
+
 
