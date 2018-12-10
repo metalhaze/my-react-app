@@ -1,9 +1,18 @@
 module.exports = {
   siteMetadata: {
     title: 'Alex Hazel Design Portfolio',
+    description: 'This is my work on my portfolio',
+    keywords: 'design, react, UI'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `xzmhbj1afbg8`,
+        accessToken: `8233b26e4ea2f8eca7d920bdb1657500b072619e6471d0c510c9d2a07b6b9c83`,
+      }
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
